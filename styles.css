@@ -1,0 +1,58 @@
+
+        /* Add styles for the welcome section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: lightblue;
+}
+
+/* Add styles for the navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightgray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+/* Add styles for the projects section */
+#projects {
+  padding: 50px;
+}
+
+.project-tile {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add media query for responsive design */
+@media (max-width: 768px) {
+  #navbar ul {
+    flex-direction: column;
+  }
+
+  #navbar a {
+    margin-bottom: 10px;
+  }
+}
